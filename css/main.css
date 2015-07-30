@@ -1,25 +1,46 @@
 /*Style Template*/
+body {
+   margin: 10px;
+}
+
 p {
    font-family: 'Quicksand', sans-serif;
+   padding: 8px;
+   background-color: #3F5765;
+   color: #EFEFEF;
 }
-header{
+
+h1 {
+   margin: 0
+}
+
+header {
    font-size: 4em;
    font-family: 'Lora', serif;
    font-weight: bold;
 }
 
-#dada{
-   height: 100px;
-   width: 150px;
-   background-color: red;
-}
-
-header h1{
+header h1 {
    color: #FF530D;
+   background-color: #EFEFEF;
+   padding: 8px;
 }
 
-header p{
+header p {
    font-size: 4em;
    font-family:'Quicksand';
    font-weight: normal;
+   background-color: #3F5765
+}
+
+ol {
+   color: #3F5765;
+   font-family: 'Quicksand', serif;
+   font-weight: bold;
+   background-color: #EFEFEF
+}
+
+li {
+   padding-top: 5px;
+   padding-bottom: 5px;
 }
