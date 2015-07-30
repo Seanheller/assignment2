@@ -11,8 +11,9 @@ p {
 }
 
 h3+p {
-   font-family: 'Quicksand'
-   padding: 8px;
+   font-family: 'Quicksand';
+   margin-top: 2px;
+   margin-bottom: 2px;
    background-color: #3F5765
    color: #EFEFEF;
 }
