@@ -3,29 +3,36 @@ body {
    margin: 10px;
 }
 
-p {
-   font-family: 'Quicksand', sans-serif;
-   padding: 8px;
-   background-color: #3F5765;
-   color: #EFEFEF;
-}
-
-h3+p {
-   font-family: 'Quicksand';
-   margin-top: 2px;
-   margin-bottom: 2px;
-   background-color: #3F5765
-   color: #EFEFEF;
-}
-
-h1 {
-   margin: 0
-}
-
 header {
    font-size: 4em;
    font-family: 'Lora', serif;
    font-weight: bold;
+}
+
+.intro {
+    background-color: #3F5765;
+    color: #EFEFEF;
+    font-weight: bold;
+}
+
+p {
+   font-family: 'Quicksand', sans-serif;
+   padding: 8px;
+   background-color: #EFEFEF;
+   color: #3F5765;
+   margin-top: 2px;
+   margin-bottom:2px;
+}
+
+h3+p {
+   font-family: 'Quicksand';
+   font-weight: bold;
+      color: #3F5765;
+   background-color: #EFEFEF;
+}
+
+h1 {
+   margin: 0
 }
 
 header h1 {
@@ -55,7 +62,7 @@ li {
 
 h3 {
    color: #FF530D;
-   font-size: 3em;
+   font-size: 3.5em;
    font-family:'Lora';
 }
 
