@@ -1,0 +1,25 @@
+/*Style Template*/
+p {
+   font-family: 'Quicksand', sans-serif;
+}
+header{
+   font-size: 4em;
+   font-family: 'Lora', serif;
+   font-weight: bold;
+}
+
+#dada{
+   height: 100px;
+   width: 150px;
+   background-color: red;
+}
+
+header h1{
+   color: #FF530D;
+}
+
+header p{
+   font-size: 4em;
+   font-family:'Quicksand';
+   font-weight: normal;
+}
