@@ -48,6 +48,10 @@ img {
    margin-right: auto;
 }
 
+div {
+   background-color: #3F5765;
+}
+
 h3+p {
    font-family: 'Quicksand';
    font-weight: bold;
