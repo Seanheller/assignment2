@@ -3,6 +3,10 @@ body {
    margin: 10px;
 }
 
+h1 {
+   margin: 0
+}
+
 header {
    font-size: 4em;
    font-family: 'Lora', serif;
@@ -15,6 +19,13 @@ header {
     font-weight: bold;
 }
 
+ol {
+   color: #3F5765;
+   font-family: 'Quicksand', serif;
+   font-weight: bold;
+   background-color: #EFEFEF
+}
+
 p {
    font-family: 'Quicksand', sans-serif;
    padding: 8px;
@@ -24,15 +35,20 @@ p {
    margin-bottom:2px;
 }
 
+img {
+   display: block;
+   width: 50%;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 h3+p {
    font-family: 'Quicksand';
    font-weight: bold;
       color: #3F5765;
    background-color: #EFEFEF;
-}
-
-h1 {
-   margin: 0
 }
 
 header h1 {
@@ -48,13 +64,6 @@ header p {
    background-color: #3F5765
 }
 
-ol {
-   color: #3F5765;
-   font-family: 'Quicksand', serif;
-   font-weight: bold;
-   background-color: #EFEFEF
-}
-
 li {
    padding-top: 5px;
    padding-bottom: 5px;
@@ -66,3 +75,8 @@ h3 {
    font-family:'Lora';
 }
 
+h4 {
+   color:#FF530D;
+   font-size: 1.75em;
+   font-family: 'Lora';
+}
