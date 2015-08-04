@@ -31,10 +31,80 @@ table {
    border-spacing: 0;
 }
 
-p img {
-   width: 100%
+body {
 }
 
-body {
-   background-color: #8795A0;
+.Album {
+   max-width: 100vw;
+   max-height: 100vh;
+   background: rgba(134,174,204,1);
+   background: -moz-linear-gradient(top, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(134,174,204,1)), color-stop(100%, rgba(212,228,239,1)));
+   background: -webkit-linear-gradient(top, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+   background: -o-linear-gradient(top, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+   background: -ms-linear-gradient(top, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+   background: linear-gradient(to bottom, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=0 );
 }
+
+.Album img {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   padding-top: 50px;
+   padding-bottom: 50px
+}
+
+.WhiteSpace {
+   max-width: 100vw;
+   max-height: 100vh;
+   background-color: #FFF;
+   display: block;
+}
+
+.WhiteSpace > h2 {
+   background-color: #2B4E66;
+   padding: 20px 100px 20px 100px;
+   margin-top: 20px;
+   color: #FFF;
+   font-size: 250%;
+   text-align: center;
+}
+
+.list-1 {
+   float: left;
+   padding: 20px 100px 20px 100px;
+   margin-top: 20px;
+   color: #2B4E66;
+   font-size: 130%;
+   border-right: 3px solid #2B4E66;
+}
+
+ol > li{
+   list-style-type: lower-roman;
+   margin-top: 20px;
+}
+
+.First-Paragraph {
+   display: block;
+   padding: 60px 20px 40px 20px;
+   margin-right: 100px;
+}
+
+.First-Paragraph > p+p {
+   padding-top: 15px;
+}
+
+#TheeGreatDivide {
+   padding: 20px 100px 20px 100px;
+}
+
+.Second-Paragraph {
+   float: left;
+   display: block;
+   padding: 15px;
+   margin: 20px;
+}
+
+
+
