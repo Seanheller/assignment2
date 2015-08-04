@@ -1,90 +1,40 @@
 /*Style Template*/
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
 body {
-   margin: 10px;
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
 }
 
-h1 {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
+p img {
+   width: 100%
 }
 
-header {
-   font-size: 4em;
-   font-family: 'Lora', serif;
-   font-weight: bold;
-}
-
-#intro {
-    background-color: #3F5765;
-    color: #EFEFEF;
-    font-weight: bold;
-    text-align: center;
-}
-
-ol {
-   color: #3F5765;
-   font-family: 'Quicksand', serif;
-   font-weight: bold;
-   background-color: #EFEFEF
-}
-
-p {
-   font-family: 'Quicksand', sans-serif;
-   padding: 8px;
-   background-color: #EFEFEF;
-   color: #3F5765;
-   margin-top: 2px;
-   margin-bottom:2px;
-}
-
-img {
-   display: block;
-   width: 20%;
-   margin-top: 15px;
-   margin-bottom: 10px;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-div {
-   background-color: #3F5765;
-}
-
-h3+p {
-   font-family: 'Quicksand';
-   font-weight: bold;
-      color: #3F5765;
-   background-color: #EFEFEF;
-}
-
-header h1 {
-   color: #FF530D;
-   background-color: #EFEFEF;
-   padding: 8px;
-}
-
-header p {
-   font-size: 4em;
-   font-family:'Quicksand';
-   font-weight: normal;
-   background-color: #3F5765
-}
-
-li {
-   padding-top: 5px;
-   padding-bottom: 5px;
-}
-
-h3 {
-   color: #FF530D;
-   font-size: 3.5em;
-   font-family:'Lora';
-}
-
-h4 {
-   color:#FF530D;
-   font-size: 1.75em;
-   font-family: 'Lora';
+body {
+   background-color: #8795A0;
 }
