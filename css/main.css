@@ -147,6 +147,10 @@ ol > ul{
    width: 90%;
 }
 
+.Second-Paragraph>p+p {
+   padding-top: 15px;
+}
+
 @media screen and (min-width: 200px) {
     html {
         font-size: 80%;
