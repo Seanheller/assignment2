@@ -42,6 +42,7 @@ i {
 
 body {
 background-image: url(http://deuruim.net/wp-content/uploads/1920x1440-textures-wallpapers-white-construction-paper-texture-free-photograph-photos-photo1.jpg);
+margin: 0 auto;
 }
 
 .AlbumContainer {
@@ -86,9 +87,10 @@ background-image: url(http://deuruim.net/wp-content/uploads/1920x1440-textures-w
 .list-1 {
    color: #2B4E66;
    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    top: 17%;
+   left: 50%;
+   transform: translate(-50%, 0);
+   top: 17%;
+   font-size: 90%;
 }
 
 ul > li {
@@ -151,15 +153,27 @@ ol > ul{
    padding-top: 15px;
 }
 
-@media screen and (min-width: 200px) {
-    html {
-        font-size: 80%;
-    }
+@media screen and (max-width: 400px) {
+   .First-Paragraph,
+   .Second-Paragraph {
+      font-size: 95%;
+      max-width: 60%;
+   }
+      .WhiteSpace {
+      font-size: 70%;
+   }
+   .list-2 {
+      margin-bottom: 40px;
+   }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 401px) {
     html {
-        font-size: 110%;
+        font-size: 100%;
+        width: 90%
+   }
+      .list-2 {
+      margin-bottom: 80px;
    }
 }
 
@@ -170,13 +184,21 @@ ol > ul{
 }
 
 @media screen and (min-width: 900px) {
-    html {
+   html {
         font-size: 100%;
-   }
+         }
+   body {
+         margin-left: 6%;
+      }
 }
+
 
 @media screen and (min-width: 1200px) {
     html {
         font-size: 100%;
-   }
+         }
+   body {
+      margin-left: 10%;
+      }
 }
+
